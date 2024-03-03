@@ -3,7 +3,7 @@
 Cal Mense | M.Eng. <br
                      
 concrete_beam_visualizer.png
-![concrete_beam_visualizer]([https://user-images.githubusercontent.com/104301991/189487077-4e1b2955-9d98-4acc-a7b1-d780ed8c5144.png](https://github.com/calmense/02-01_Concrete_Beam_Visualizer/blob/main/concrete_beam_visualizer.png))
+([https://user-images.githubusercontent.com/104301991/189487077-4e1b2955-9d98-4acc-a7b1-d780ed8c5144.png](https://github.com/calmense/02-01_Concrete_Beam_Visualizer/blob/main/concrete_beam_visualizer.png))
 
 
 
