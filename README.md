@@ -3,7 +3,9 @@
 Cal Mense | M.Eng. <br
                      
 concrete_beam_visualizer.png
-![concrete_beam_visualizer][(https://user-images.githubusercontent.com/104301991/189487077-4e1b2955-9d98-4acc-a7b1-d780ed8c5144.png)]
+![concrete_beam_visualizer]([https://user-images.githubusercontent.com/104301991/189487077-4e1b2955-9d98-4acc-a7b1-d780ed8c5144.png](https://github.com/calmense/02-01_Concrete_Beam_Visualizer/blob/main/concrete_beam_visualizer.png))
+
+
 
 ## Vorwort
 Vor dem Hintergrund des Klimawandels und der voranschreitenden Digitalisierung steht in der Bauindustrie zunehmend die Forderung des nachhaltigen Bauens im Fokus. Die vorliegende Arbeit will dazu beitragen, mit der Unterstützung der Programmiersprache Python innovative Arbeitskonzepte zu entwickeln, die statische Berechnungen um ein Vielfaches effizienter gestalten. Hierzu werden herkömmliche Arbeitsmethoden wie das Arbeiten mit Excel aufgegriffen und anhand des Beispiels einer Stützenbemessung optimiert. Aus der Verknüpfung entsteht ein Stützenbemessungsprogramm, welches einen gesamten Arbeitsablauf, vom Lastabtrag, der Dimensionierung und Optimierung der Stützen und der nachfolgenden Dokumentation vereint. Des Weiteren wird das Beispiel der Schraubenbemessung verwendet, um weitere Schnittstellen in Python zu erkunden. 
