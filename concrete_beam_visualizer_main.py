@@ -20,7 +20,7 @@ st.markdown("""<style>
 [data-testid="stSidebar"][aria-expanded="false"] > div:first-child {width: 500px;}
 [data-testid="stSidebar"][aria-expanded="false"] > div:first-child {width: 500px;margin-left: -500px;}
 footer:after{
-    content:"Cal Mense M.Eng. | Concrete Beam Vizualizer | Version 1";
+    content:"Cal Mense M.Eng. | Concrete Beam Visualizer | Version 1";
     display:block;
     position:relative;
     color:grey;
@@ -42,6 +42,8 @@ st.write("This application visualizes rectangular cross-sections of concrete bea
 
 with st.sidebar:
     st.header("Parameter")
+    st.write("Streamlit version:", st.__version__)
+    
 
     concrete = st.selectbox("Concrete", ["C12/15", "C16/20", "C20/25", "C25/30", "C30/37", "C35/45", "C40/45", "C50/60"], 3)
     steel = st.selectbox("Steel", ["B500A", "B500B"])
