@@ -56,7 +56,7 @@ with st.sidebar:
         rebarTop2 = st.selectbox("Rebar Top 2", [12, 14, 16, 20, 25, 28])
     else:
         st.write("The rebar diameters are initially determined according to the table. For finer adjustments, click 'Yes'.")
-
+    st.write("Streamlit version:", st.__version__)
 # _______________________main_______________________________________
 # __________________________________________________________________
         
