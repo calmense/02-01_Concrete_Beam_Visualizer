@@ -20,7 +20,7 @@ st.markdown("""<style>
 [data-testid="stSidebar"][aria-expanded="false"] > div:first-child {width: 500px;}
 [data-testid="stSidebar"][aria-expanded="false"] > div:first-child {width: 500px;margin-left: -500px;}
 footer:after{
-    content:"Cal Mense M.Eng. | Concrete Beam Visualizer | Version 1";
+    content:"Cal Mense M.Eng. | Concrete Beam Vizualizer | Version 1";
     display:block;
     position:relative;
     color:grey;
@@ -104,6 +104,8 @@ if refinement == "No":
 
 rebarList = [rebarTop1, rebarTop2, rebarBot1, rebarBot2, rebarBot3]
 rebarMax = max(rebarList)
+
+st.write("Streamlit version:", st.__version__)
 
 # ____________________calculation___________________________________
 # __________________________________________________________________
@@ -283,7 +285,7 @@ draw_arrow(fig, xList, yList, "X", scaleX, scaleY)
 # update layout
 fig.update_layout(
     autosize=False,
-    width = 600,
+    width = 800,
     height = 700,
     uirevision='static',
     showlegend=False)
