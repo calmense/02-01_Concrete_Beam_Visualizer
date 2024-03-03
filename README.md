@@ -1,10 +1,9 @@
 # Concrete Beam Visualizer
-**A porject with Python and Streamlit** <br>
-Cal Mense | M.Eng. <br
-                     
-concrete_beam_visualizer.png
+**A porject with Python and Streamlit**
+Cal Mense | M.Eng.
 
-![concrete_beam_visualizer.png](https://github.com/calmense/02-01_Concrete_Beam_Visualizer/blob/main/concrete_beam_visualizer.png)
+
+![concrete_beam_visualizer.gif](https://github.com/calmense/02-01_Concrete_Beam_Visualizer/blob/main/concrete_beam_visualizer.gif)
 
 
 
@@ -16,4 +15,4 @@ Sämtliche Programmierungen werden detailliert aufgeschlüsselt, sodass sie für
 Die Abgabe der Abschlussarbeit erfolgt als gebundenes Exemplar und wird zusätzlich im Sinne der Quelloffenheit digital auf GitHub bereitgestellt. Diese sind in Form von interaktiven **Jupyter Notebooks** als inhaltsgleiche Spiegelung der gebundenen Ausgabe zu verstehen und können als alleinstehendes Dokument gelesen werden. Die Arbeitsblätter im Ordner **00_Jupyter_Notebooks** sind thematisch gegliedert und beschreiben aufbauend die Python-Algorithmen, die in den Anwendungsbeispielen in den Ordnern **01_Stützenbemessung_ec5_63** und **02_Schraubenbemessung_ec5_87** verwendet werden. Beim Herunterladen dieses Repositoriums muss die Ordnerstruktur beibehalten werden, damit die relativen Pfadbezüge richtig bestehen bleiben. 
 
 ---
-September 2022
+March 2024
