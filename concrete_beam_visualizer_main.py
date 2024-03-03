@@ -15,7 +15,7 @@ from PIL import Image
 from concrete_beam_visualizer_functions import *
 
 # HTML Einstellungen
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Concrete Beam Visualizer", layout="wide")
 st.markdown("""<style>
 [data-testid="stSidebar"][aria-expanded="false"] > div:first-child {width: 500px;}
 [data-testid="stSidebar"][aria-expanded="false"] > div:first-child {width: 500px;margin-left: -500px;}
