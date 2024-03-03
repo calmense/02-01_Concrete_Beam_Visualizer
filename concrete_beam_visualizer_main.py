@@ -42,9 +42,7 @@ st.write("This application visualizes rectangular cross-sections of concrete bea
 
 with st.sidebar:
     st.header("Parameter")
-    st.write("Streamlit version:", st.__version__)
     
-
     concrete = st.selectbox("Concrete", ["C12/15", "C16/20", "C20/25", "C25/30", "C30/37", "C35/45", "C40/45", "C50/60"], 3)
     steel = st.selectbox("Steel", ["B500A", "B500B"])
     text = st.text_input("Text", "XC1")
@@ -106,8 +104,6 @@ if refinement == "No":
 
 rebarList = [rebarTop1, rebarTop2, rebarBot1, rebarBot2, rebarBot3]
 rebarMax = max(rebarList)
-
-st.write("Streamlit version:", st.__version__)
 
 # ____________________calculation___________________________________
 # __________________________________________________________________
