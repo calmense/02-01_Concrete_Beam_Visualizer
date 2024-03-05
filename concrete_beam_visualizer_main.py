@@ -304,6 +304,10 @@ try:
 except:
     st.warning("Some error happened - change input.")
 
+st.write("")
+st.write("")
+st.write("")
+st.write("")
 
-text = '<p style="font-family:Times; color:rgb(255, 75, 75); font-size: 10px;">Cal Mense (M.Eng.) | Concrete Beam Visualizer | v.1</p>'
+text = '<p style="font-family:Arial; color:rgb(114, 114, 114); font-size: 10px;">Cal Mense (M.Eng.) | Concrete Beam Visualizer | v.1</p>'
 st.markdown(text, unsafe_allow_html=True)
