@@ -303,3 +303,15 @@ try:
 
 except:
     st.warning("Some error happened - change input.")
+
+
+st.markdown("""<style>
+[data-testid="stSidebar"][aria-expanded="false"] > div:first-child {width: 500px;}
+[data-testid="stSidebar"][aria-expanded="false"] > div:first-child {width: 500px;margin-left: -500px;}
+footer:after{
+    content:"Cal Mense (M.Eng.)";
+    display:block;
+    position:relative;
+    color:grey;
+}
+</style>""",unsafe_allow_html=True)
