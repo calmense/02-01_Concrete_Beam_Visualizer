@@ -24,7 +24,7 @@ footer:after{
     content:"Python for Structural Engineers | Cal Mense (M.Eng.) ";
     display:block;
     position:relative;
-    color:grey;
+    color:grey
 }""",unsafe_allow_html=True)
 
 st.markdown('''
