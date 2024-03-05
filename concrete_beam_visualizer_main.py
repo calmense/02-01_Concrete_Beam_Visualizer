@@ -25,7 +25,9 @@ footer:after{
     position:relative;
     color:grey;
 }
-</style>""",unsafe_allow_html=True)
+</style>''',
+unsafe_allow_html=True
+)
 
 st.markdown('''
 <style>
