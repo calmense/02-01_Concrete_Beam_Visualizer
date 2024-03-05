@@ -23,11 +23,8 @@ footer:after{
     content:"Cal Mense M.Eng. | Concrete Beam Visualizer | Version 1";
     display:block;
     position:relative;
-    color:grey;
-}
-</style>''',
-unsafe_allow_html=True
-)
+    color:grey;}
+    </style>""",unsafe_allow_html=True)
 
 st.markdown('''
 <style>
