@@ -304,3 +304,5 @@ try:
 except:
     st.warning("Some error happened - change input.")
 
+
+st.write(".")
