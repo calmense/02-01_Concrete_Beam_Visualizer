@@ -20,9 +20,12 @@ st.markdown("""<style>
 [data-testid="stSidebar"][aria-expanded="false"] > div:first-child {width: 500px;}
 [data-testid="stSidebar"][aria-expanded="false"] > div:first-child {width: 500px;margin-left: -500px;}
 </style>;
-<div class="footer">
-<p>Developed with ❤ by <a style='display: block; text-align: center;' href="https://www.heflin.dev/" target="_blank">Heflin Stephen Raj S</a></p>
-</div>""",unsafe_allow_html=True)
+footer:after{
+    content:"Python for Structural Engineers | Cal Mense (M.Eng.) ";
+    display:block;
+    position:relative;
+    color:grey;
+}""",unsafe_allow_html=True)
 
 st.markdown('''
 <style>
