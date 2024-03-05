@@ -20,11 +20,12 @@ st.markdown("""<style>
 [data-testid="stSidebar"][aria-expanded="false"] > div:first-child {width: 500px;}
 [data-testid="stSidebar"][aria-expanded="false"] > div:first-child {width: 500px;margin-left: -500px;}
 footer:after{
-    content:"Cal Mense M.Eng. | Concrete Beam Visualizer | Version 1";
+    content:"Cal Mense (M.Eng.)";
     display:block;
     position:relative;
-    color:grey;}
-    </style>""",unsafe_allow_html=True)
+    color:grey;
+}
+</style>""",unsafe_allow_html=True)
 
 st.markdown('''
 <style>
