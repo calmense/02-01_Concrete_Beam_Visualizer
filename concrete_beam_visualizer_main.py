@@ -19,13 +19,12 @@ st.set_page_config(page_title="Concrete Beam Visualizer", layout="wide")
 st.markdown("""<style>
 [data-testid="stSidebar"][aria-expanded="false"] > div:first-child {width: 500px;}
 [data-testid="stSidebar"][aria-expanded="false"] > div:first-child {width: 500px;margin-left: -500px;}
-</style>;
 footer:after{
     content:"Python for Structural Engineers | Cal Mense (M.Eng.) ";
     display:block;
     position:relative;
     color:grey
-}""",unsafe_allow_html=True)
+</style>;}""",unsafe_allow_html=True)
 
 st.markdown('''
 <style>
