@@ -221,14 +221,14 @@ try:
     # rebar information
     Asu1 = round(noBot1 * (rebarBot1/10)**2 / 4 * pi, 1)
     Asu2 = round(noBot2 * (rebarBot2/10)**2 / 4 * pi, 1)
-    Asu3 = round(noBot2 * (rebarBot3/10)**2 / 4 * pi, 1)
+    Asu3 = round(noBot3 * (rebarBot3/10)**2 / 4 * pi, 1)
     Aso1 = round(noTop1 * (rebarTop1/10)**2 / 4 * pi, 1)
     Aso2 = round(noTop2 * (rebarTop2/10)**2 / 4 * pi, 1)
     asw = round(100/dsw * (stirrups/10)**2 / 4 * pi * sleeks, 1)
     
     textAsu1 = f"A<sub>s.bot.1</sub>= {noBot1} x ⌀{rebarBot1} = {Asu1} cm<sup>2</sup>"
     textAsu2 = f"A<sub>s.bot.2</sub> = {noBot2} x ⌀{rebarBot2} = {Asu2} cm<sup>2</sup>"
-    textAsu3 = f"A<sub>s.bot.3</sub> = {noBot2} x ⌀{rebarBot3} = {Asu3} cm<sup>2</sup>"
+    textAsu3 = f"A<sub>s.bot.3</sub> = {noBot3} x ⌀{rebarBot3} = {Asu3} cm<sup>2</sup>"
     textAso1 = f"A<sub>s.top.1</sub> = {noTop1} x ⌀{rebarTop1} = {Aso1} cm<sup>2</sup>"
     textAso2 = f"A<sub>s.top.2</sub> = {noTop2} x ⌀{rebarTop2} = {Aso2} cm<sup>2</sup>"
     textAsw = f"a<sub>sw</sub> = ⌀{stirrups} / {dsw} cm x {sleeks} = {asw} cm<sup>2</sup>/m"
