@@ -226,7 +226,6 @@ try:
     Aso2 = round(noTop2 * (rebarTop2/10)**2 / 4 * pi, 1)
     asw = round(100/dsw * (stirrups/10)**2 / 4 * pi * sleeks, 1)
     Ac = height * width * 0.1**2
-
     
     textAsu1 = f"A<sub>s.bot.1</sub>= {noBot1} x ⌀{rebarBot1} = {Asu1} cm<sup>2</sup>"
     textAsu2 = f"A<sub>s.bot.2</sub> = {noBot2} x ⌀{rebarBot2} = {Asu2} cm<sup>2</sup>"
@@ -238,7 +237,7 @@ try:
     textAs = [textAso1, textAso2, textAsu1, textAsu2, textAsu3]
     AsList = [Aso1, Aso2, Asu1, Asu2, Asu3]
     Astotal = sum(AsList)
-    rho = round(Astotal / Ac,3)
+    rho = round(Astotal / Ac * 100,1)
     
     AsuCount = []
     AsoCount = []
@@ -272,7 +271,7 @@ try:
     add_text(fig, textAsw, x, y, textSize)
 
     y = y0 - verticalDistanceText * (n + 7)
-    add_text(fig, f"rebar ratio ρ = {rho * 100}%", x, y, textSize)
+    add_text(fig, f"rebar ratio ρ = {rho}%", x, y, textSize)
     
     y = y0 - verticalDistanceText * (n + 9)
     add_text(fig, f"cover = {edgeVertical} mm", x, y, textSize)
