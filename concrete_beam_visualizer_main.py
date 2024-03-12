@@ -272,7 +272,7 @@ try:
     add_text(fig, textAsw, x, y, textSize)
 
     y = y0 - verticalDistanceText * (n + 7)
-    add_text(fig, f"ϱ = {rho * 100}", x, y, textSize)
+    add_text(fig, f"rebar ratio ρ = {rho * 100}%", x, y, textSize)
     
     y = y0 - verticalDistanceText * (n + 9)
     add_text(fig, f"cover = {edgeVertical} mm", x, y, textSize)
