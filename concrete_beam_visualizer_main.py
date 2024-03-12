@@ -238,7 +238,7 @@ try:
     textAs = [textAso1, textAso2, textAsu1, textAsu2, textAsu3]
     AsList = [Aso1, Aso2, Asu1, Asu2, Asu3]
     Astotal = sum(AsList)
-    rho = Astotal / Ac
+    rho = round(Astotal / Ac,3)
     
     AsuCount = []
     AsoCount = []
@@ -272,7 +272,7 @@ try:
     add_text(fig, textAsw, x, y, textSize)
 
     y = y0 - verticalDistanceText * (n + 7)
-    add_text(fig, rho, x, y, textSize)
+    add_text(fig, f"ϱ = {rho * 100}", x, y, textSize)
     
     y = y0 - verticalDistanceText * (n + 9)
     add_text(fig, f"cover = {edgeVertical} mm", x, y, textSize)
